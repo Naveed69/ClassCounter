@@ -12,12 +12,6 @@ class Counter extends Component {
   handleDec = () => {
     this.setState((prev) => ({ count: prev.count - 1 }));
   };
-  //   handleInc = () => {
-  //     this.setState.count((prevState) => ({ count: prevState + 1 }));
-  //   };
-  //   handleDec = () => {
-  //     this.setState.count((prevState) => ({ count: prevState - 1 }));
-  //   };
   render() {
     return (
       <>
